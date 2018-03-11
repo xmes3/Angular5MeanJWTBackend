@@ -1,0 +1,24 @@
+{
+  "name": "c5backend",
+  "version": "1.0.0",
+  "description": "API RESTful curs angular",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xmes3",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "connect-multiparty": "^2.1.0",
+    "express": "^4.16.2",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.21.0",
+    "mongoose": "^5.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.1"
+  }
+}
